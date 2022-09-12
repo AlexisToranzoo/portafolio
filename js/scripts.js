@@ -1,4 +1,4 @@
-console.log("comenzando cargA")
+
 
 
 window.onload = function(){
@@ -8,12 +8,4 @@ window.onload = function(){
 
     
 
-}
-
-
-function hobbie(){
-        let hobbies = ["jugar futbol","entrenar","meditar","escuchar musica"]
-        
-        
-        
 }
