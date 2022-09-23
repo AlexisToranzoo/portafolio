@@ -16,8 +16,6 @@
 <body>
     <div id="preloadmessage">
         <h1>Cargando...</h1>
-        <img src="/imagenes/cargando.gif"
-            style="filter:blur(1px);margin: auto;justify-content: center;display: flex    ;">
     </div>
 
     <div id="preload" style="filter:blur(30px);">
@@ -39,7 +37,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
+
         <!-- NAV BAR-->
+        
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand">Alexis Toranzo</a>
@@ -64,7 +64,7 @@
                 <div class="slide-left" id="infomia">
                     <h1>Alexis Toranzo</h1>
                     <h2>20 años</h2>
-                    <h4><i class="bi bi-pin-angle-fill" style="color:white;"></i> Cordoba Capital</h4>
+                    <h4><i class="bi bi-pin-angle-fill text-white"></i> Cordoba Capital</h4>
                     <nav class="justify-content iconlist ">
                         <figure class="figure">
                             <img class="p-1 w3rem hoverable position-relative" src="imagenes/boostrap.webp"
@@ -105,15 +105,23 @@
         <section>
 
             <h1 class="ml-5">HISTORIA</h1>
-            <section style="display:flex;">
+            <section class="d-flex">
                 
                 <section class="timeline">
                     
                 </section>
+                <div style="left:10%;bottom: 50%;rotate: 30deg;" class="esferaC"></div>
+                <div style="left:10%;bottom: 20%;rotate: 15deg;" class="esferaG"></div>
+                <div style="left:15%;bottom: 28%;rotate: 32deg;" class="esferaG"></div>
+                <div style="left:10%;bottom: 50%;rotate: 10deg;" class="esferaG"></div>
+
                 <section id="fechas">
                 <section>
+                    <div style="left:50%;rotate: 40deg;" class="esferaG"></div>
+                    <div style="left:20%;rotate: 10deg;" class="esferaC"></div>
                     <legend id="historia" class="fecha headline rounded">2020</legend>
-                    <section class="container  border-dark headline2 rounded">
+                    <section class="container border-dark headline2 rounded">
+                        
                         <h2 class="mr-5">CREADOR DE CONTENIDO</h2>
                         <span class="icono"><i class="fa-brands fa-instagram blur fa-flip"></i></span>
                         <span class="icono" style="top: 19%;rotate: 0deg;"><i class="bi bi-tv blur"></i></span>
@@ -132,14 +140,18 @@
                             <img src="imagenes/instagrami.webp" alt="" class="pic rounded sombra">
                         </div>
                     </section>
+                    <div style="left:30%;rotate: 10deg;" class="esferaC"></div>
+                    <div style="left:20%;rotate: 10deg;" class="esferaG"></div>
                 </section>
 
                     <div style="height:5rem;"></div>
-
+                    <div style="left:20%;rotate: 10deg;" class="esferaC"></div>
+                    <div style="left:50%;bottom: 40%;rotate: 40deg;" class="esferaG"></div>
                 <section style="margin-left:10%;">
                     <legend class="fecha headline rounded" >2021</legend>
                     <section class="container headline2  border-dark rounded">
                         <h2>VENDEDOR</h2>
+                        
                         <p class="fsl m-0">
                             En esta época fue cuando aprendí sobre las ventas. Comencé a vender autos y motos, primero 
                             desde mi casa, en una empresa pequeña. Luego de eso,  contacté con una consecionaria de mi zona. 
@@ -148,7 +160,7 @@
                             ponía en práctica todo y, poco a poco, fui viendo resultados positivos. Con lo ganado, logre mejorar 
                             mi pc al punto de ser más estable para editar videos.
                         </p>
-
+                        
                          <!-- GRAFICO -->
                     <div class="graficoventas mt-2" style="align-items: end;">
                         <h1 class=" gbloque1 rounded">
@@ -249,7 +261,7 @@
               </div>
         </section>
         <!--FORMACION-->
-        <section class="mb-5" id="formacion">
+        <section class="mb-5 mt-5" id="formacion">
             <h1 class="ml-5">FORMACION</h1>
             <p class="ml-5 mr-5 text-white">Prácticamente el 90% de la formación que tuve para realizar proyectos primerizos fueron de mi busqueda por internet. Nunca tuve un lugar de aprendizaje FIJO. Siempre use stackoverflow para dudas referidas a funciones y paginas como W3school, Freecodecamp y Youtube</p>
             <ul class="ml-5 text-white">
